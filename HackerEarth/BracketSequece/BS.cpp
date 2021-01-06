@@ -1,25 +1,61 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
-
 #ifndef ONLINE_JUDGE
 	freopen("bsinput.txt", "r", stdin);
 	freopen("bsoutput.txt", "w", stdout);
 #endif
 
-	char array[6];
-
-	for (int i = 0; i < 6; i++)
+	int i, j, l = 0, r = 0, z = 0, y = 0, x = 0;
+	string s;
+	cin >> s;
+	int len = s.length();
+	//first count the number of left and right parenthesis
+	for (i = 0; i < len; i++)
 	{
-		cin >> array[i];
+		if (s[i] == '(')
+			l++;
+		else
+			r++;
 	}
-
-	for (int i = 5; i >= 1; --i)
+	if (l != r)
+		cout << "0";
+	else
 	{
-		cout << array[i] << endl;
-	}
+		l = 0;
+		for (i = 0; i < len; i++)
+		{
+			if (s[i] == '(')
+				l++;
+			else
+				l--;
+			if (l < y)
+			{
+				y = l;
+				x = i + 1;
+			}
+		}
 
-	return 0;
+		// left shift the string by x
+		reverse(s.begin(), s.begin() + x);
+
+		reverse(s.begin() + x, s.end());
+
+		reverse(s.begin(), s.end());
+
+		l = 0;
+		for (i = 0; i < len; i++)
+		{
+			if (s[i] == '(')
+				l++;
+			else
+				l--;
+			if (l == 0)
+				z++;
+		}
+		cout << z;
+	}
 }
