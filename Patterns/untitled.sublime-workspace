@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input2\tS input2"
+			],
+			[
+				"iput",
+				"input1\tS input1"
+			],
+			[
+				"gr",
+				"grades\tint [10] grades"
+			],
+			[
+				"cou",
+				"cout\tostream cout"
+			],
+			[
 				"ios",
 				"iostream\t/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"
 			],
@@ -24,19 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "Pattern1.cpp",
+			"file": "/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/StringAllFunc.cpp",
 			"settings":
 			{
-				"buffer_size": 260,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Patttern2.cpp",
-			"settings":
-			{
-				"buffer_size": 260,
+				"buffer_size": 3024,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -118,7 +125,7 @@
 			]
 		]
 	],
-	"build_varint": "Run",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -126,16 +133,28 @@
 		"selected_items":
 		[
 			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"mater",
+				"Material Theme: Configuration"
+			],
+			[
 				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"materia",
+				"Material Theme: Configuration"
+			],
+			[
+				"package ins",
 				"Package Control: Install Package"
 			],
 			[
 				"pa",
 				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Package Control: Remove Package"
 			],
 			[
 				"PACKA",
@@ -156,10 +175,6 @@
 			[
 				"packa",
 				"Package Control: Install Package"
-			],
-			[
-				"mater",
-				"Material Theme: Activate theme"
 			],
 			[
 				"matter",
@@ -222,11 +237,44 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP"
 	],
 	"file_history":
 	[
-		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ArrayMultiExample1.cpp",
 		"/Users/postgres/Library/Application Support/Sublime Text 3/Packages/User/C++14.sublime-build",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/SizeOf.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Pattern1.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorsPushBack.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Vector.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorInsert.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorEmplace.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorAll.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorClear.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorErase.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VectorPopBack.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Inheritance.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/InheritacePrivate.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/InheritanceMulti.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/VirtualFunctions.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/PureVirtualFunction.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Inheritance.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Template.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/TemplateMultiTypes.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/GenericClass.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/FunctionOverloading.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/OverloadigOperator.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ClassFuncBigEx.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ThisPointer.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ConstructorDestructor.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ClassConstructors.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/StudentClass.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Pattern5.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Pattern4.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/untitled.sublime-project",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Pattern3.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Patttern2.cpp",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Patterns/Pattern1",
+		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/ArrayMultiExample1.cpp",
 		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Fibonacci.cpp",
 		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Arithmatic.cpp",
 		"/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/Cpp Basics/Example1.cpp",
@@ -243,7 +291,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -275,62 +323,36 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Pattern1.cpp",
+					"file": "/Users/postgres/Documents/Coder/GITHUB/Data-Structures-CPP/StringAllFunc.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 260,
+						"buffer_size": 3024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								242,
-								242
+								2368,
+								2368
 							]
 						],
 						"settings":
 						{
+							"_anf_new": "",
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Patttern2.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 738.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -341,11 +363,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 64.0
 	},
 	"layout":
 	{
@@ -380,9 +402,13 @@
 	},
 	"output.exec":
 	{
-		"height": 370.0
+		"height": 195.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -390,7 +416,7 @@
 	"project": "untitled.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -436,5 +462,6 @@
 	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 2
 	}
 }
