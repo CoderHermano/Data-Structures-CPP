@@ -1,4 +1,6 @@
 // Program to cyclically rotate an array by one
+// Time Complexity: O(n) As we need to iterate through all the elements
+// Auxiliary Space: O(1)
 #include<bits/stdc++.h>
 using namespace std;
 
