@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Function to left Rotate arr[] of
+// << Function to left Rotate arr[] of
 // size n by 1
 void leftRotateByOne(int arr[], int n) {
 
@@ -29,7 +29,7 @@ int main() {
 	// Size of array
 	int n = sizeof(arr) / sizeof(arr[0]);
 	// Rotate by
-	int d = 2;
+	int d = 1;
 
 	leftRotate(arr, d, n);
 

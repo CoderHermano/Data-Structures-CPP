@@ -13,15 +13,15 @@ public:
 
 		int n = nums.size();
 		int maximum = 0;
-		int c = 0;
+		int count = 0;
 		for (int i = 0; i < n; i++)
 		{
 			if (nums[i] == 0)
 			{
-				c = 0;
+				count = 0;
 			} else {
-				c++;
-				maximum = max(maximum, c);
+				count++;
+				maximum = max(maximum, count);
 			}
 		}
 		return maximum;
@@ -34,7 +34,7 @@ public:
 int getMaxLength(long long arr[], int n)
 {
 	int count = 0; //intitialize count
-	int result = 0; //initialize max
+	int maximum = 0; //initialize max
 
 	for (int i = 0; i < n; i++)
 	{
@@ -48,11 +48,11 @@ int getMaxLength(long long arr[], int n)
 		else
 		{
 			count++; //increase count
-			result = max(result, count);
+			maximum = max(maximum, count);
 		}
 	}
 
-	return result;
+	return maximum;
 }
 
 
