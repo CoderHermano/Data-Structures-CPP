@@ -28,6 +28,9 @@
 
 # Executables
 *.exe
-*.exec
 *.out
 *.app
+
+*
+!*.c
+!Makefile
